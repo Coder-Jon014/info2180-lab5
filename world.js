@@ -8,7 +8,7 @@ window.onload=function(){
         var s = document.getElementById("country").value;
         httpsRequest = new XMLHttpRequest();
 
-        var url = 'world.php?country=';
+        var url = 'http://localhost/info2180-lab5/world.php?country=';
         httpsRequest.onreadystatechange = countryLUp
         httpsRequest.open('GET', url+s, true);
         httpsRequest.send();
@@ -20,7 +20,7 @@ window.onload=function(){
         var s = document.getElementById("country").value;
         httpsRequest = new XMLHttpRequest();
 
-        var url = 'world.php?country=';
+        var url = 'http://localhost/info2180-lab5/world.php?country=';
         httpsRequest.onreadystatechange = countryLUp;
         httpsRequest.open('GET', url+s+'&context=cities', true);
         httpsRequest.send();

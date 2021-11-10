@@ -111,4 +111,27 @@ body footer {
   justify-content: center;
   height: 100%;
   width: 100%;
+}
+body table {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-radius: 0.5em;
+}
+body th {
+  background-color: #bae9e9;
+  width: 200px;
+  text-align: center;
+  padding: 2px;
+}
+body td {
+  width: 400px;
+  padding: 15px;
+  text-align: center;
+  /* background-color: white; */
+  border-bottom: 0.5px solid cadetblue;
+  margin-bottom: 1px;
+}
+body tr {
+  background: #FFF;
 }/*# sourceMappingURL=world.css.map */
